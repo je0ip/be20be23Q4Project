@@ -11,7 +11,7 @@ Once the user has filled up all the needed information from the login page, they
 1. Type of data: User account login data \
 purpose: for logging it to the site or for creating a new account \
 structure in JSON format: \
-            account { \
+>> account { \
                 profile: file, \
    		first-name: text-string, \
      		last-name: text-string, \
