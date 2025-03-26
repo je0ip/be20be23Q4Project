@@ -44,12 +44,17 @@ structure in JSON format:
 		status: checkbox
   }
 
+
 ### **Wireframe**
 
 **_Updated Home Page:_**
+
 ![Taskly_Updated Home Page](https://github.com/user-attachments/assets/698e2a9e-ed31-4158-95c7-f9fa5aaccf38)
+
 ![Taskly_Updated Home Page_login](https://github.com/user-attachments/assets/bf672413-cf54-42d7-96c7-9b67501f0b7e)
 
 **_Updated Task Page:_**
+
 ![Taskly_Updated Task Page](https://github.com/user-attachments/assets/1ed70a0a-e338-4674-ba9e-0d3a6d441dfa)
+
 ![Taskly_Updated Task Page_sample Acc Editing](https://github.com/user-attachments/assets/97a82669-b75a-4094-95ea-3a2aa6fe954b)
