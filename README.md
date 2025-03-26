@@ -40,7 +40,7 @@ task name: text-string, \
 date added: date, \
 date to be accomplished: date, \
 priority: text-string, \
-notes: text-string, \
+notes: text-area, \
 status: checkbox \
 }
 
