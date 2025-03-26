@@ -1,0 +1,157 @@
+* {box-sizing: border-box;}
+
+html,body {
+  width: 100%;
+  height: 100%;
+  background: #E8F9FF;
+}
+
+#navBar {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+img {
+  float: left;
+  margin-left: 5px;
+}
+
+nav {
+  background-color: #9ACBD0;
+  overflow: hidden;
+  position: relative;
+  height: 10%;
+}
+
+nav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #614BC3;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+  background-color: #48A6A7;
+  text-decoration: none;
+  color: #DAD2FF;
+}
+
+nav a:active {
+  background-color: #493D9E;
+  text-decoration: none;
+  color: white;
+}
+
+#containMain {
+  margin-top: 10px;
+  position: relative;
+  float: left;
+  overflow: auto;
+  width: 100%;
+  height: 70vh;
+  z-index:1;
+}
+
+.home {
+  position: relative;
+  float: left;
+  overflow: auto;
+  width: 30%;
+  z-index:1;
+  height: 52vh;
+  justify-items: center;
+  background-image: url("https://cdn.glitch.global/3672821e-7dea-4aba-aa44-8f4a0d9c274a/bg.jpg?v=1738826358643");
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mission {
+  position: absolute;
+  float: left;
+  top: 300px;
+  overflow: auto;
+  width: 100%;
+  z-index:1;
+  margin: auto;
+}
+
+article > h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #493D9E;
+  font-size: 20px;
+}
+
+article.mission > p {
+  display: inline-block;
+  border-radius: 25px;
+  background: #CDC1FF;
+  width: 30%;
+  height: 70px;
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #180161;
+  text-align: center;
+  justify-content: center;
+  box-shadow:  0px 0px 7px 2px #888888;
+}
+
+article.home > p {
+  text-align: center; 
+}
+
+article.home > p > span {
+  font-family: fantasy;
+  color: #d292fc;
+  background-color: #1aebeb;
+  font-size: 30px;
+  font-style: italic;
+}
+
+article.home > a {
+  font-size: 30px;
+  text-align: center;
+  color:white;
+}
+
+
+#footer {
+  background-color: #9ACBD0;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #493D9E;
+  font-weight: bold;
+  float: left;
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+  z-index:1;
+}
+
+
+#references {
+  display: block;
+  width: 100%;
+}
+
+#referencesB {
+  background-color: #E5D9F2;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #180161;
+}
+
+/*CSS for references()*/
+#references.collapse {
+  height: 0;
+  visibility:hidden;
+}
