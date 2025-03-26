@@ -18,30 +18,30 @@ structure in JSON format: \
        		username: text-string, \
 	 	email address: email formatted text-string, \
    		password: text-string \
- 	} \\
+ 	} \
 
 **_Tasking page:_**
 1. Type of data: user account data \
 purpose: for editing the user information \
 structure in JSON format: \
-	acc access { \
+        acc access { \
     		first-name: text-string, \
     		last-name: text-string, \
     		username: text-string, \
 		email address: email formatted text-string, \
 		change password: text-string \
-	} \
+	} 
 
-3. Type of data: task data
-purpose: for creating new tasks/editing the data of existing tasks
-structure in JSON format:
-	new task/edit task {
-		task name: text-string,
-		date added: date,
-		date to be accomplished: date,
-		priority: text-string,
-		notes: text-string,
-		status: checkbox
+3. Type of data: task data \
+purpose: for creating new tasks/editing the data of existing tasks \
+structure in JSON format: \
+	new task/edit task { \
+		task name: text-string, \
+		date added: date, \
+		date to be accomplished: date, \
+		priority: text-string, \
+		notes: text-string, \
+		status: checkbox \
   	}
 
 
