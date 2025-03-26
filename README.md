@@ -8,31 +8,31 @@ Once the user has filled up all the needed information from the login page, they
 *How the data will be used:* We plan to ask some personal information to retrieve the users tasking page upon login. Similarly, we decided to refine the way we retrieved their task data by using the POST method.
 
 **_Home page_**
-1. Type of data: User account login data
-purpose: for logging it to the site or for creating a new account
-structure in JSON format:
-	account {
- 		profile: file,
-   		first-name: text-string,
-     		last-name: text-string,
-       		username: text-string,
-	 	email address: email formatted text-string,
-   		password: text-string
- 	}
+1. Type of data: User account login data \
+purpose: for logging it to the site or for creating a new account \
+structure in JSON format: \
+	account { \
+ 		profile: file, \
+   		first-name: text-string, \
+     		last-name: text-string, \
+       		username: text-string, \
+	 	email address: email formatted text-string, \
+   		password: text-string \
+ 	} \\
 
 **_Tasking page:_**
-1. Type of data: user account data
-purpose: for editing the user information
-structure in JSON format:
-	acc access {
-    		first-name: text-string,
-    		last-name: text-string,
-    		username: text-string,
-		email address: email formatted text-string,
-		change password: text-string
-	}
+1. Type of data: user account data \
+purpose: for editing the user information \
+structure in JSON format: \
+	acc access { \
+    		first-name: text-string, \
+    		last-name: text-string, \
+    		username: text-string, \
+		email address: email formatted text-string, \
+		change password: text-string \
+	} \
 
-4. Type of data: task data
+3. Type of data: task data
 purpose: for creating new tasks/editing the data of existing tasks
 structure in JSON format:
 	new task/edit task {
