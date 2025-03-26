@@ -11,14 +11,14 @@ Once the user has filled up all the needed information from the login page, they
 1. Type of data: User account login data \
 purpose: for logging it to the site or for creating a new account \
 structure in JSON format: \
-	account { \
- 		profile: file, \
+            account { \
+                profile: file, \
    		first-name: text-string, \
      		last-name: text-string, \
        		username: text-string, \
 	 	email address: email formatted text-string, \
    		password: text-string \
- 	} \
+ 	} 
 
 **_Tasking page:_**
 1. Type of data: user account data \
